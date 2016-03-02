@@ -6,7 +6,7 @@
   <preference name="permissions" value="none"/>
   <preference name="orientation" value="default"/>
   <preference name="target-device" value="universal"/>
-  <preference name="fullscreen" value="true"/>
+  <preference name="fullscreen" value="false"/>
   <preference name="webviewbounce" value="true"/>
   <preference name="prerendered-icon" value="true"/>
   <preference name="stay-in-webview" value="false"/>
@@ -37,19 +37,19 @@
   <gap:plugin name="org.apache.cordova.splashscreen"/>
   <gap:plugin name="org.apache.cordova.vibration"/>
   <icon src="icon.png"/>
-  <icon src="img/EnergyDashIcon.png" gap:platform="android" gap:qualifier="ldpi"/>
-  <icon src="img/EnergyDashIcon.png" gap:platform="android" gap:qualifier="mdpi"/>
-  <icon src="img/EnergyDashIcon.png" gap:platform="android" gap:qualifier="hdpi"/>
-  <icon src="img/EnergyDashIcon.png" gap:platform="android" gap:qualifier="xhdpi"/>
-  <icon src="img/EnergyDashIcon.png" gap:platform="blackberry"/>
-  <icon src="img/EnergyDashIcon.png" gap:platform="blackberry" gap:state="hover"/>
-  <icon src="img/EnergyDashIcon.png" gap:platform="ios" width="57" height="57"/>
-  <icon src="img/EnergyDashIcon.png" gap:platform="ios" width="72" height="72"/>
-  <icon src="img/EnergyDashIcon.png" gap:platform="ios" width="114" height="114"/>
-  <icon src="img/EnergyDashIcon.png" gap:platform="ios" width="144" height="144"/>
-  <icon src="img/EnergyDashIcon.png" gap:platform="webos"/>
-  <icon src="img/EnergyDashIcon.png" gap:platform="winphone"/>
-  <icon src="img/EnergyDashIcon.png" gap:platform="winphone" gap:role="background"/>
+  <icon src="img/icon_180_180_converted.png" gap:platform="android" gap:qualifier="ldpi"/>
+  <icon src="img/icon_180_180_converted.png" gap:platform="android" gap:qualifier="mdpi"/>
+  <icon src="img/icon_180_180_converted.png" gap:platform="android" gap:qualifier="hdpi"/>
+  <icon src="img/icon_180_180_converted.png" gap:platform="android" gap:qualifier="xhdpi"/>
+  <icon src="img/icon_180_180_converted.png" gap:platform="blackberry"/>
+  <icon src="img/icon_180_180_converted.png" gap:platform="blackberry" gap:state="hover"/>
+  <icon src="img/icon_180_180_converted.png" gap:platform="ios" width="57" height="57"/>
+  <icon src="img/icon_180_180_converted.png" gap:platform="ios" width="72" height="72"/>
+  <icon src="img/icon_180_180_converted.png" gap:platform="ios" width="114" height="114"/>
+  <icon src="img/icon_180_180_converted.png" gap:platform="ios" width="144" height="144"/>
+  <icon src="img/icon_180_180_converted.png" gap:platform="webos"/>
+  <icon src="img/icon_180_180_converted.png" gap:platform="winphone"/>
+  <icon src="img/icon_180_180_converted.png" gap:platform="winphone" gap:role="background"/>
   <gap:splash src="www/res/screen/android/screen-ldpi-portrait.png" gap:platform="android" gap:qualifier="port-ldpi"/>
   <gap:splash src="www/res/screen/android/screen-mdpi-portrait.png" gap:platform="android" gap:qualifier="port-mdpi"/>
   <gap:splash src="www/res/screen/android/screen-hdpi-portrait.png" gap:platform="android" gap:qualifier="port-hdpi"/>

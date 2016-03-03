@@ -18,6 +18,10 @@ animateApp.config(function($routeProvider) {
             templateUrl: 'pages/daily.html',
             controller: 'dailyController'
         })
+        .when('/evolucao', {
+            templateUrl: 'pages/evolucao.html',
+            controller: 'evolucaoController'
+        })
         .when('/monthly', {
             templateUrl: 'pages/monthly.html',
             controller: 'monthlyController'
@@ -33,6 +37,10 @@ animateApp.controller('mainController', function($scope) {
 
 animateApp.controller('aboutController', function($scope) {
     $scope.pageClass = 'page-about';
+});
+
+animateApp.controller('evolucaoController', function($scope) {
+    $scope.pageClass = 'page-evolucao';
 });
 
 animateApp.controller('contactController', function($scope) {
